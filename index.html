@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rael's Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo">Rael</div>
+      <nav class="nav-bar">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content" class="hidden">
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Hi, I'm Rael</h1>
+        <p>A young developer passionate about web development and coding</p>
+        <a href="#projects" class="cta-button">View My Work</a>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <div class="about-text">
+            <p>I am a 14 year old developer from Germany studying how to code. I want to become a full stack web developer with expertise in JavaScript, TypeScript, and modern frameworks.</p>
+            <p>I started learning HTML in 2022 and have been continuously expanding my skills in CSS, JavaScript, and web development. I'm passionate about creating clean, modern, and responsive websites.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div id="skills-container" class="skills-grid">
+          <!-- Skills loaded from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+      <div class="container">
+        <h2>Projects</h2>
+        <div id="projects-container" class="projects-grid">
+          <!-- Projects loaded from data.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <h2>Get In Touch</h2>
+        <p>Feel free to reach out to me on my social platforms or send me a message.</p>
+        <div class="contact-links">
+          <a href="https://github.com/raelmc" target="_blank" class="contact-link">GitHub</a>
+          <a href="mailto:contact@example.com" class="contact-link">Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Rael. All rights reserved.</p>
+  </footer>
+
+  <script src="js/data.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
